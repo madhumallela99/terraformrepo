@@ -15,7 +15,7 @@ terraform {
 
 provider "gcp" {
   profile = "default" 
-  region  = "west"
+  region  = "west-us"
 }
 
 #Resource Block
