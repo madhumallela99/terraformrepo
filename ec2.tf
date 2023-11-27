@@ -3,7 +3,7 @@ terraform {
   required_providers {
     aws = {
 
-      source  = "hashicorp/gcp"
+      source  = "hashicorp/"aws"
 
 
       
@@ -13,7 +13,7 @@ terraform {
 
 # Provider Block
 
-provider "gcp" {
+provider "aws" {
   profile = "default" 
   region  = "us-east-1"
 }
