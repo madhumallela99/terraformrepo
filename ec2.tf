@@ -3,7 +3,7 @@ terraform {
   required_providers {
     aws = {
 
-      source  = "hashicorp/"aws"
+      source  = "hashicorp/"oci"
 
 
       
@@ -13,7 +13,7 @@ terraform {
 
 # Provider Block
 
-provider "aws" {
+provider "oci" {
   profile = "default" 
   region  = "us-east-1"
 }
