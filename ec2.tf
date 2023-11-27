@@ -15,7 +15,7 @@ terraform {
 
 provider "oci" {
   profile = "default" 
-  region  = "us-east-1"
+  region  = "west-us"
 }
 
 #Resource Block
